@@ -121,6 +121,7 @@
 .staff__cards {
   max-width: 760px;
   margin: 68px auto 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -133,6 +134,8 @@
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
+  width: 360px;
+  height: 420px;
 }
 
 .card__content {
@@ -140,8 +143,6 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  width: 360px;
-  height: 420px;
 }
 
 .card__title {
@@ -260,8 +261,8 @@
 }
 
 .person_name_feynman {
-  top: 30px;
   left: 319px;
+  top: -30px;
 }
 
 .person_name_burbidge {
@@ -332,7 +333,7 @@
 }
 
 .step {
-  max-width: 220px;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -356,6 +357,7 @@
   padding: 100px 80px;
   background-color: #1f1f1f;
   color: #fff;
+  display: flex;
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
@@ -380,7 +382,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  left: 240px;
+  margin-left: 120px;
   gap: 32px;
   z-index: 1;
 }
@@ -412,11 +414,11 @@
   display: flex;
 }
 
-.footer__column_content_hours {
+.footer__column_hours {
   margin-left: auto;
 }
 
-.footer__column_content_social {
+.footer__column_social {
   margin-left: 100px;
 }
 
@@ -440,7 +442,7 @@
 }
 
 .footer__column-heading {
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 .footer__column-link {
@@ -459,5 +461,5 @@
 }
 
 .footer__copyright {
-  margin-top: 80px;
+  margin: 80px 0 0;
 }
